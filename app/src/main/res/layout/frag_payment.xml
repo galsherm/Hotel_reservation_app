@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:windowSoftInputMode="adjustResize"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:id="@+id/space1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/easyFlipView1"
+                android:layout_width="348dp"
+                android:layout_height="180dp"
+                app:autoFlipBack="false"
+                app:flipDuration="400"
+                app:flipEnabled="true"
+                app:flipFrom="right"
+                app:flipOnTouch="false"
+                app:flipType="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/space1">
+
+                <!-- Back Layout Goes Here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/credit_card_back" />
+
+                <!-- Front Layout Goes Here -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/credit_card_front" />
+
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+            <TextView
+                android:id="@+id/cardNumTv1"
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="8dp"
+                android:text="xxxx - xxxx - xxxx - xxxx"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/easyFlipView1"
+                app:layout_constraintEnd_toEndOf="@+id/easyFlipView1"
+                app:layout_constraintStart_toStartOf="@+id/easyFlipView1"
+                app:layout_constraintTop_toTopOf="@+id/easyFlipView1"
+                app:layout_constraintVertical_bias="0.53" />
+
+            <TextView
+                android:id="@+id/expireDateTv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mm/yyyy"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/easyFlipView1"
+                app:layout_constraintEnd_toEndOf="@+id/easyFlipView1"
+                app:layout_constraintHorizontal_bias="0.72"
+                app:layout_constraintStart_toStartOf="@+id/easyFlipView1"
+                app:layout_constraintTop_toTopOf="@+id/easyFlipView1"
+                app:layout_constraintVertical_bias="0.81" />
+
+            <TextView
+                android:id="@+id/cardOwnerTv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Owner Name"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/easyFlipView1"
+                app:layout_constraintEnd_toStartOf="@+id/expireDateTv1"
+                app:layout_constraintHorizontal_bias="0.35"
+                app:layout_constraintStart_toStartOf="@+id/easyFlipView1"
+                app:layout_constraintTop_toBottomOf="@+id/cardNumTv1"
+                app:layout_constraintVertical_bias="0.39" />
+
+            <TextView
+                android:id="@+id/cnnTv1"
+                android:layout_width="63dp"
+                android:layout_height="19dp"
+                android:text="CNN"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/easyFlipView1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.67"
+                app:layout_constraintStart_toStartOf="@+id/easyFlipView1"
+                app:layout_constraintTop_toTopOf="@+id/easyFlipView1"
+                app:layout_constraintVertical_bias="0.59000003" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etCardNumber1_"
+                android:layout_width="73dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_withframe"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="xxxx"
+                android:inputType="number"
+                android:maxLength="4" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/teal_700"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/etCardNumber5_"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_withframe"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="xxxx"
+                android:inputType="number"
+                android:maxLength="4" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="@color/teal_700"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/etCardNumber9_"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_withframe"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="xxxx"
+                android:inputType="number"
+                android:maxLength="4" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="@color/teal_700"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/etCardNumber13_"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_withframe"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="xxxx"
+                android:inputType="number"
+                android:maxLength="4" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/etOwnerName"
+            android:layout_width="293dp"
+            android:layout_height="45dp"
+            android:background="@drawable/round_withframe"
+            android:ems="10"
+            android:hint="Owner Name"
+            android:inputType="textPersonName"
+            tools:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvExpirition2"
+                android:layout_width="73dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Expire:"
+                android:textColor="@color/teal_700"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/month"
+                android:layout_width="47dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_withframe"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textColor="@color/teal_700"
+                android:textSize="30sp" />
+
+            <Spinner
+                android:id="@+id/year"
+                android:layout_width="69dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_withframe"
+                android:gravity="center"
+                android:spinnerMode="dropdown" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/etVerification"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_withframe"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="CNN"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textColorHint="#C1018786" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvExpirition3"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Bill:  "
+                android:textColor="@color/teal_700"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvTotalPrice1"
+                android:layout_width="137dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="US$270"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:outlineAmbientShadowColor="@color/teal_700" />
+
+            <Button
+                android:id="@+id/btnPlaceOrder"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/round_button"
+                android:text="Place Order"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

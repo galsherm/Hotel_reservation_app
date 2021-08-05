@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hotels>
+    <hotel>
+        <name>Athina Luxury Suites</name>
+        <city>Santorini</city>
+        <country>Greece</country>
+        <picture>athina_foreground</picture>
+        <rooms>2</rooms>
+        <rate>9.4</rate>
+        <price>362</price>
+        <details>
+Nestled upon a rock in Fira Town, the Cycladic-style Athina Luxury Suites feature a swimming pool and a sun terrace with panoramic views of the Caldera and the volcano. They offer air-conditioned accommodations with a balcony or terrace and provide free WiFi in public areas.
+All units are comfortable and spacious, carved inside the volcanic earth according to the unique traditional style of the island’s architecture. They are all equipped with modern amenities such as flat-screen, satellite TV and iPod dock. All units enjoy panoramic views over the Aegean Sea, the Caldera and the volcano.
+An array of meals, drinks and snacks are served at the property's bar restaurant, or at your suite. Several restaurants and bars can be reached within a short walk.
+        </details>
+    </hotel>
+    <hotel>
+        <name>Deluxe Rest Boutique</name>
+        <city>Santorini</city>
+        <country>Greece</country>
+        <picture>restboutique_foreground</picture>
+        <rooms>1</rooms>
+        <rate>8.7</rate>
+        <price>41</price>
+        <details>
+Deluxe Rest Boutique has a seasonal outdoor swimming pool, bar, a shared lounge and garden in Fira. Boasting family rooms, this property also provides guests with a sun terrace. The accommodations offers a 24-hour front desk, airport transfers, a concierge service and free WiFi throughout the property.
+At the hotel, the rooms are equipped with a wardrobe, a flat-screen TV and a private bathroom. All guest rooms will provide guests with a fridge.
+Popular points of interest near Deluxe Rest Boutique include Archaeological Museum of Thera, Museum of Prehistoric Thera and Central Bus Station. The nearest airport is Santorini International Airport, 3.7 mi from the hotel.
+        </details>
+    </hotel>
+    <hotel>
+        <name>Villa Toula</name>
+        <city>Santorini</city>
+        <country>Greece</country>
+        <picture>toula_foreground</picture>
+        <rooms>3</rooms>
+        <rate>8.7</rate>
+        <price>45</price>
+        <details>
+The Villa Toula, located in the heart of Fira on the cosmopolitan island Santorini, is a family-run establishment. Wi-Fi is free in public areas and rooms are air conditioned.
+Villa Toula’s bright, colorful rooms have private bathrooms, TV and a refrigerator for guests convenience.
+Guests can relax in the traditional Cycladic courtyard at Villa Toula. The staff are happy to arrange car or bicycle hire and will readily take guests to and from the port on arrival and departure.
+        </details>
+    </hotel>
+    <hotel>
+        <name>City Break</name>
+        <city>Santorini</city>
+        <country>Greece</country>
+        <picture>citybreak_foreground</picture>
+        <rooms>1</rooms>
+        <rate>9.3</rate>
+        <price>82</price>
+        <details>
+City Break is set in the center of Fira, 100 m from Archaeological Museum of Thera. The property is around 100 m from both Museum of Prehistoric Thera and the Central Bus Station. Every room includes a patio.
+The rooms in the hotel are equipped with a kettle. The private bathroom is fitted with a shower. At City Break the rooms are equipped with a wardrobe and a flat-screen TV.
+The Central Bus Station is 100 m away. Santorini International Airport is 3.7 mi from the property.
+        </details>
+    </hotel>
+    <hotel>
+        <name>Suites Blue</name>
+        <city>Santorini</city>
+        <country>Greece</country>
+        <picture>suitesblue_foreground</picture>
+        <rooms>2</rooms>
+        <rate>7.7</rate>
+        <price>47</price>
+        <details>
+This Cycladic-style apartment complex in Fira features a beautiful pool area with direct view of the Aegean Sea. Guests enjoy elegant rooms with free WiFi and free parking facilities. The nearest beach is 1.6 mi away.
+Blue Suites Hotel’s rooms are traditionally furnished with iron and wooden beds with romantic canopies. Each offers a private balcony, most with sea and pool view.
+Blue Suites Hotel is 10 minutes’ walk from Fira’s vivid center. Santorini Airpor is at 3.7 mi and Athinios Port around 6.2 mi away.
+        </details>
+    </hotel>
+    <hotel>
+        <name>Island Mykonos Suites</name>
+        <city>Mykonos</city>
+        <country>Greece</country>
+        <picture>islandmykonos_foreground</picture>
+        <rooms>1</rooms>
+        <rate>9.0</rate>
+        <price>88</price>
+        <details>
+Island Mykonos Suites offers accommodations with a garden and free WiFi.
+All units feature air conditioning and a flat-screen TV. A fridge and kettle are also provided.
+This is our guests' favorite part of Mikonos, according to independent reviews.
+Couples in particular like the location – they rated it 9.5 for a two-person trip.
+        </details>
+    </hotel>
+    <hotel>
+        <name>Harmony Boutique Hotel</name>
+        <city>Mykonos</city>
+        <country>Greece</country>
+        <picture>harmony_foreground</picture>
+        <rooms>1</rooms>
+        <rate>9.0</rate>
+        <price>129</price>
+        <details>
+Located next to the old port of Mykonos and in the heart of its shopping and nightlife district, this boutique hotel offers stylish accommodations with stunning sea views. It features a Spa Centre with sauna and a fully-equipped fitness center covering an area of 150 yards².
+Each of Harmony’s private balconies features views of Mykonos Town and the Aegean Sea and a perfect place to witness the beautiful sunset. Each room has double-glazed windows and scales. A welcome drink is offered upon arrival.
+Just steps from Harmony Hotel, guests can experience the heart of Mykonos. The port and shops, as well as a variety of lively taverns, provide plenty of entertainment for every visitor. Free underground private parking is provided for all guests and free Wi-Fi is available throughout.
+        </details>
+    </hotel>
+    <hotel>
+        <name>AVALON cosy apartments</name>
+        <city>Mykonos</city>
+        <country>Greece</country>
+        <picture>avalon_foreground</picture>
+        <rooms>3</rooms>
+        <price>500</price>
+        <rate>9.5</rate>
+        <details>
+Boasting a garden, AVALON cozy apartments, minimal villas with shared swimming pool offer accommodations in Agrari area of Mykonos, with free Wi-Fi and garden view. Set 2.2 mi from Super Paradise Beach, the property offers a shared seasonal outdoor swimming pool and free private parking.
+The villas have living room with sofa/bed, a flat-screen TV, an equipped kitchen with a fridge and an oven, and 1 separate bathroom .
+        </details>
+    </hotel>
+    <hotel>
+        <name>Dizengoff Garden Hotel</name>
+        <city>Tel Aviv</city>
+        <country>Israel</country>
+        <picture>dizengoff_foreground</picture>
+        <rooms>1</rooms>
+        <rate>9.8</rate>
+        <price>3037</price>
+        <details>
+Dizengoff Garden Hotel features air-conditioned rooms with satellite flat-screen TV in the The Old North district of Tel Aviv. Among the facilities at this property are a 24-hour front desk and a shared kitchen, along with free WiFi throughout the property. The property is close to popular attractions like Dizengoff Center, Meir Park and The Cameri Theater.
+The units in the hotel are equipped with a kettle. At Dizengoff Garden Hotel, all rooms come with a private bathroom with a hairdryer and free toiletries.
+Popular points of interest near the accommodations include Dizengoff Square, Itzhak Rabin Memorial and Gordon Pool. The nearest airport is Ben Gurion Airport, 8.1 mi from Dizengoff Garden Hotel.        </details>
+    </hotel>
+    <hotel>
+        <name>Cinema Hotel</name>
+        <city>Tel Aviv</city>
+        <country>Israel</country>
+        <picture>cinema_foreground</picture>
+        <rooms>1</rooms>
+        <rate>9.0</rate>
+        <price>209</price>
+        <details>
+Overlooking Tel Aviv's Dizengoff Square, the Cinema Hotel is a in a stylish Bauhaus-style building. The rooftop terrace offers fantastic views of the city.
+Each room provides free Wi-Fi, a tea/coffee maker and a private bathroom. Free afternoon appetizers and drinks are served in the business lounge between 5 pm and 7:30 pm on weekdays.
+Cinema Hotel - an Atlas Boutique Hotel was a former cinema and the movie theme is evident throughout the hotel. Original movie projectors, theater chairs and movie posters are displayed alongside viewings of classic movies in the hotel’s lobby. Free parking is subject to availability.
+        </details>
+    </hotel>
+    <hotel>
+        <name>Hotel BoBo</name>
+        <city>Tel Aviv</city>
+        <country>Israel</country>
+        <picture>bobo_foreground</picture>
+        <rooms>1</rooms>
+        <rate>8.2</rate>
+        <price>204</price>
+        <details>
+Set in Tel Aviv, 0.8 mi from Aviv Beach, Hotel BoBo a member of Brown Hotels offers accommodations with a restaurant, free private parking, a bar and a terrace. The property is located less than 0.6 mi from Independence Hall Museum, a 13-minute walk from Suzanne Dellal Center for Dance and Theater and 0.7 mi from Nachalat Benyamin Crafts Fair. The air-conditioned rooms provide a city view and come with a wardrobe and free WiFi.
+Breakfast is served at a the hotel's restaurant.
+For business travelers' convenience, meeting and banquet facilities, a business center, newspapers and a fax machine and photocopier are offered. Languages spoken at the 24-hour front desk include English, French, Hebrew and Russian.
+        </details>
+    </hotel>
+    <hotel>
+        <name>Isrotel Tower Hotel</name>
+        <city>Tel Aviv</city>
+        <country>Israel</country>
+        <picture>isrotel_foreground</picture>
+        <rooms>2</rooms>
+        <rate>7.7</rate>
+        <price>239</price>
+        <details>
+With panoramic views over Tel Aviv and the Mediterranean Sea, the Isrotel Tower Hotel offers a rooftop pool and free WiFi. It has air-conditioned rooms and suites, complete with a satellite flat-screen TV.
+Part of a 30-story building, 50 m from Tel Aviv’s vibrant seafront, the property is set between the sandy beach and the shops and entertainment opportunities of Hayarkon Street. Ben Gurion International Airport is a 20-minute drive away.
+Accommodations at the modern Isrotel Tower includes a kettle and mini-bar. Suites have a kitchenette with a fridge, microwave and kitchenware. Some units feature sea views.
+        </details>
+    </hotel>
+    <hotel>
+        <name>Queen Of Sheba Eilat</name>
+        <city>Eilat</city>
+        <country>Israel</country>
+        <picture>queenofsheba_foreground</picture>
+        <rooms>1</rooms>
+        <rate>8.5</rate>
+        <price>219</price>
+        <details>
+Unique, luxurious, and impressive, the Queen of Sheba is one of Eilat's grandest hotels, offering a superb location overlooking the Red Sea.You can enjoy the hotel's own shopping mall and swimming pool overlooking the sea.
+Eilat Queen of Sheba presents a long list of top-quality facilities. Guests can do business in the Executive Lounge or enjoy fine dining in one of the 4 restaurants. Visit the Sheba Spa for sauna, steam room, hot tub and massages, or stay fit in the well-equipped gym.
+The hotel is located in the center of the North Shore hotel area, right by the promenade, and only a 2-minute walk from the beach. Ramon airport is 20 mins' drive from the hotel. The hotel and the surrounding area offer lots of activities for the whole family, including exciting water sports.
+        </details>
+    </hotel>
+    <hotel>
+        <name>Aria</name>
+        <city>Eilat</city>
+        <country>Israel</country>
+        <picture>aria_foreground</picture>
+        <rooms>3</rooms>
+        <rate>8.9</rate>
+        <price>246</price>
+        <details>
+Aria is a hotel located right by the Red Sea, close to a shopping mall and Eilat Promenade. Suites come with free WiFi, an LCD TV and a balcony.
+Some suites at the Aria have their own private hot tub on the balcony, and offer views of the sea.
+The Aria hotel has swimming pools for adults and children, and a large spa with treatment rooms. Evening entertainment is also available.
+        </details>
+    </hotel>
+    <hotel>
+        <name>Leonardo Plaza Hotel Eilat</name>
+        <city>Eilat</city>
+        <country>Israel</country>
+        <picture>leonardo_foreground</picture>
+        <rooms>1</rooms>
+        <rate>8.1</rate>
+        <price>486</price>
+        <details>
+Leonardo Plaza Hotel Eilat offers an outdoor swimming pool with loungers, overlooking the Red Sea and a beach. All rooms have a sea view.
+Rooms at the Plaza Hotel Eilat are air conditioned and most rooms have a balcony. Each features an indoor seating area and some also have a spa bath.
+Guests can relax and keep fit in the wellness center which features a gym, sauna and hot tub. Other facilities include a games room, and massage treatments are available.
+Hotel Eilat Plaza has many dining options including Chinese, Italian and an international menu. Guests can enjoy a drink from one of the bars, or a snack on the poolside terrace.
+        </details>
+    </hotel>
+</hotels>

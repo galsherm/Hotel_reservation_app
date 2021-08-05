@@ -1,0 +1,47 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragContainer"
+    tools:context="com.example.finalproject.MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/landLeftScreen"
+        class="com.example.finalproject.Home_frag"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/frag_home" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/landRightScreen"
+        class="com.example.finalproject.Hotels_frag"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="?android:attr/detailsElementBackground"
+        android:tag="HOTELSFRAG"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/landLeftScreen"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/landAllScreen"
+        class="com.example.finalproject.hotelDetails_frag_frag"
+        android:layout_width="745dp"
+        android:layout_height="409dp"
+        android:layout_alignParentEnd="true"
+        android:background="?android:attr/detailsElementBackground"
+        android:tag="DETAILSFRAG"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

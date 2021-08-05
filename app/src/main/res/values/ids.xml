@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvMakaf" type="id" />
+    <item name="tvDates" type="id" />
+    <item name="tvToDate" type="id" />
+    <item name="tvDatesPicked" type="id" />
+    <item name="textView2" type="id" />
+    <item name="tvHotelPicked" type="id" />
+    <item name="tvFromDate" type="id" />
+    <item name="tvLasttName" type="id" />
+    <item name="year" type="id" />
+    <item name="etVerification" type="id" />
+    <item name="etCardNumber9_12" type="id" />
+    <item name="tvOwnerName" type="id" />
+    <item name="etCardNumber1_4" type="id" />
+    <item name="tvEmail" type="id" />
+    <item name="tvVerification" type="id" />
+    <item name="etLastName" type="id" />
+    <item name="tvExpirition" type="id" />
+    <item name="etEmail" type="id" />
+    <item name="etOwnerName" type="id" />
+    <item name="etFirstName" type="id" />
+    <item name="etCardNumber13_16" type="id" />
+    <item name="month" type="id" />
+    <item name="etCardNumber5_8" type="id" />
+    <item name="tvCardNumber" type="id" />
+    <item name="tvFirstName" type="id" />
+    <item name="tvToDatePicked" type="id" />
+</resources>

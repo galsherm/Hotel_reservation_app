@@ -1,0 +1,17 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragContainer"
+    android:configChanges="orientation|keyboardHidden|screenSize"
+    tools:context="com.example.finalproject.MainActivity">
+
+    <fragment
+        android:id="@+id/landLeftScreen"
+        class="com.example.finalproject.Home_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/frag_home" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
